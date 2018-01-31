@@ -1,0 +1,41 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.jumbotron {
+  background:url("../images/jumbotron.jpg");
+}
+
+footer {
+  background:#343a40;
+  height: 48px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  overflow: auto;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+}
+
+
